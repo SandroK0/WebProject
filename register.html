@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>რეგისტრაცია</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    
+    <div class="auth-form-container">
+        <form action="" method="get">
+            <div class="form-group">
+                <label  for="userName" class="text-input-label">სახელი</label>
+                <input  type="text" name="userName" class="text-input" id="userName" 
+                placeholder="ჩაწერეთ თქენი სახელი">
+            </div>
+            <div class="form-group">
+                <label  for="lastName" class="text-input-label">გვარი</label>
+                <input  type="text" name="lastName" class="text-input" id="lastName" 
+                placeholder="ჩაწერეთ თქვენი გვარი">
+            </div>
+            <div class="form-group">
+                <label  for="Email" class="text-input-label">ელ-ფოსტა</label>
+                <input  type="email" name="Email" class="text-input" id="Email" 
+                placeholder="ელ-ფოსტა">
+            </div>
+
+            <div class="form-group">
+                <label  for="date" class="text-input-label">დაბადების თარიღი</label>
+                <input  type="date" name="date" class="text-input" id="date">
+
+            </div>
+            <div>
+                <label for="location" class="text-input-label">ქვეყანა</label>
+                <select class="location">
+                    <option>საქართველო</option>
+                    <option>ამერიკა</option>
+                    <option>საფრანგეთი</option>
+                    <option>ნორვეგია</option>
+                    <option>ჯვარი</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                
+                <div class="sex-container">
+                    <input type="radio" name="sex" id="male">
+                    <label for="male">მამრობითი</label>
+                </div >
+                <div class="sex-container">
+                    <input type="radio" name="sex" id="female">
+                    <label for="female">მდედრობითი</label>
+                </div>
+                
+
+            </div>
+            <div class="form-group">
+                <label  for="pass" class="text-input-label">პაროლი</label>
+                <input  type="password" name="pass" class="text-input" id="pass"
+                placeholder="პაროლი">
+            </div>
+            <div class="form-group">
+                <label  for="pass" class="text-input-label">გაიმეორე პაროლი</label>
+                <input  type="password" name="pass" class="text-input" id="pass"
+                placeholder="გაიმეორე პაროლი">
+            </div>
+            <div class="form-group">
+                
+                <input type="checkbox" name="save" id="save">
+                <label for="save">დამახსოვრება</label>
+                
+
+            </div>
+            <button class="btn btn-primary width-100 mb-15px" >რეგისტრაცია</button>
+            <a href="auth.html" class="btn btn-link">ავტორიზაცია</a>
+        </form> 
+
+
+    </div>
+    
+</body>
+</html>

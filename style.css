@@ -1,0 +1,75 @@
+
+/* authorization styles */
+.auth-form-container{
+    border: 1px solid black;
+    width: 300px;
+    min-height: 200px;
+    margin: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+.text-input-label{
+    display: block;
+    margin-bottom: 5px;
+    
+    
+}
+.form-group{
+    margin-bottom: 15px;
+    
+    
+}
+
+.auth-form-container .text-input,
+.auth-form-container .location{
+    height: 35px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
+    
+}
+.auth-form-container .location{
+    background-color: white;
+
+}
+
+
+
+.width-100{
+    width: 100%;
+}
+.mb-15px{
+    margin-bottom: 15px;
+}
+.btn-link{
+    text-decoration: none;
+    line-height: 35px;
+    color: blue;
+}
+.btn-link:hover{
+    text-decoration: underline;
+}
+.btn{
+    display: block;
+    font-size: 15px;
+    height: 35px;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    
+}
+.btn-primary{
+    background-color: rgb(77, 77, 179);
+    color: white;
+
+    
+}
+
+.sex-container{
+    display: inline-block;
+    margin-top: 12px;
+}
